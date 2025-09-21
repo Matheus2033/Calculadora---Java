@@ -12,7 +12,7 @@ public class Calculadora{
     System.out.print("Digite o segundo numero: ");
     double num2 = scanner.nextDouble();
 
-    System.out.println("Escolhas as operações +-*/");
+    System.out.println("Escolha as operações +-*/");
     char operador = scanner.next().charAt(0);
 
     double resultado;
